@@ -1,0 +1,113 @@
+.card {
+    border-radius: 25px;
+    height: 100%;
+  }
+  
+  .card img {
+    height: 300px; /* Establece un alto fijo para las imágenes */
+    object-fit: cover;
+  }
+  
+  .card-title a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333; /* Cambia el color del texto */
+  }
+  
+  .btn-primary {
+    background-color: #02c09a; /* Cambia el color de fondo del botón */
+    border: none;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #029481; /* Cambia el color de fondo del botón al pasar el mouse */
+  }
+  
+  .grow {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .grow:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .bg-light{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/tecnologia.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+h2{
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+/* Estilos avanzados para la sección de proyectos */
+#proyectos {
+    background: linear-gradient(to bottom, #141e30, #243b55);
+    padding: 60px 0;
+  }
+  
+  #proyectos .display-6 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+  }
+  
+  #proyectos .display-6:hover {
+    transform: translateY(-5px);
+    color: #f06;
+  }
+  
+  #proyectos p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+  }
+  
+  #proyectos p:hover {
+    transform: scale(1.02);
+    color: #f06;
+  }
+  
+  #proyectos .card {
+    border-radius: 25px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  }
+  
+  #proyectos .card:hover {
+    transform: scale(1.10);
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+  }
+  
+  #proyectos .card-title a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  #proyectos .card-title a:hover {
+    color: #f06;
+  }
+  
