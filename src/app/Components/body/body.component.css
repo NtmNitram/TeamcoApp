@@ -111,3 +111,74 @@ h2{
     color: #f06;
   }
   
+
+
+
+
+/* Especialistas en  */
+.lineas-negocio {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.linea {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(2, 103, 170, 0.942);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.linea:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+  border-color: rgba(2, 103, 170, 0.942)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #141e30;
+  font-size: 24px;
+  margin: 0;
+}
+
+.linea h2 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #141e30;
+}
+
+.linea ul li:before {
+  content: "\2022";
+  color: #141e30;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h1, p{
+
+  text-align: center;
+}
+
+.lineas-negocio{
+  
+  width: 100%;
+  background-image: url('../../../assets/Oficina.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
