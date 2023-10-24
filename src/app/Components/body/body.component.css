@@ -182,3 +182,13 @@ h1, p{
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+
+.whatsapp-button {
+  
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+  right:  -230px; /* Ajusta la distancia desde la derecha según tus preferencias */
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  
+}
