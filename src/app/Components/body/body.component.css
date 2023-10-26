@@ -59,58 +59,36 @@ h2{
 
 
 
-/* Estilos avanzados para la sección de proyectos */
-#proyectos {
-    background: linear-gradient(to bottom, #141e30, #243b55);
-    padding: 60px 0;
-  }
-  
-  #proyectos .display-6 {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-top: 2rem;
-    text-transform: uppercase;
-    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
-  }
-  
-  #proyectos .display-6:hover {
-    transform: translateY(-5px);
-    color: #f06;
-  }
-  
-  #proyectos p {
-    color: #fff;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
-  }
-  
-  #proyectos p:hover {
-    transform: scale(1.02);
-    color: #f06;
-  }
-  
-  #proyectos .card {
-    border-radius: 25px;
-    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
-  }
-  
-  #proyectos .card:hover {
-    transform: scale(1.10);
-    box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
-  }
-  
-  #proyectos .card-title a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    transition: color 0.4s ease-in-out;
-  }
-  
-  #proyectos .card-title a:hover {
-    color: #f06;
-  }
-  
+/* Estilos para la sección de proyectos */  
+#proyectos .row {
+  margin-top: 2rem; /* Agrega espacio entre las filas de arriba y abajo */
+}
+
+/* Resto de tus estilos */
+#proyectos .display-6 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 2rem;
+  transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+#proyectos .card {
+  border-radius: 25px;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+#proyectos .card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+}
+
+#proyectos .card-title{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.4s ease-in-out;
+}
+
 
 
 
@@ -169,7 +147,7 @@ h2 {
   margin-left: -1em;
 }
 
-h1, p{
+h1{
 
   text-align: center;
 }
@@ -187,8 +165,40 @@ h1, p{
 .whatsapp-button {
   
   position: fixed;
-  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
-  right:  -230px; /* Ajusta la distancia desde la derecha según tus preferencias */
-  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  bottom: 20px; 
+  right:  -230px; 
+  z-index: 999; /* Asegura que esté por encima*/
   
 }
+
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+

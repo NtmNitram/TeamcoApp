@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent {
+  ventanaEmergenteVisible: boolean = false;
 
+  mostrarVentanaEmergente() {
+    this.ventanaEmergenteVisible = true;
+  }
+
+  cerrarVentanaEmergente() {
+    this.ventanaEmergenteVisible = false;
+  }
 }
+
+
