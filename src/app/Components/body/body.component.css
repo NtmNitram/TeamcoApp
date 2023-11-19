@@ -1,28 +1,3 @@
-
-.colorH1 {
-color: #000;
-}
-.card {
-  max-width: 100%; /* Ajusta el ancho máximo de las tarjetas al 100% */
-}
-
-.card-img-top {
-  max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% */
-  height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
-}
-
-
-.card {
-  max-width: 100%; /* Ajusta el ancho máximo de las tarjetas al 100% */
-}
-
-.card-img-top {
-  max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% */
-  height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
-}
-
-
-
 .card {
     border-radius: 25px;
     height: 100%;
@@ -77,23 +52,20 @@ color: #000;
 }
 
 
-h2{
-    color: white;
-    font-size: 2rem;
-}
 
 p{
-  color: aliceblue;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
+
+
 
 /* Estilos para la sección de proyectos */  
 #proyectos .row {
   margin-top: 2rem; /* Agrega espacio entre las filas de arriba y abajo */
 }
 
-/* Resto de estilos */
+/* Resto de tus estilos */
 #proyectos .display-6 {
   font-size: 2.5rem;
   color: #fff;
@@ -155,6 +127,17 @@ li {
 }
 
 
+h2{
+  color: rgb(10, 0, 0);
+  font-size: 2rem;
+}
+
+h3{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
 
 .linea h2 {
   padding-bottom: 10px;
@@ -173,7 +156,6 @@ li {
 h1{
 
   text-align: center;
-  color:white;
 }
 
 .lineas-negocio{
@@ -194,3 +176,6 @@ h1{
   z-index: 999; /* Asegura que esté por encima*/
   
 }
+
+
+
