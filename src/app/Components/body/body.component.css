@@ -1,3 +1,17 @@
+
+.colorH1 {
+color: #000;
+}
+.card {
+  max-width: 100%; /* Ajusta el ancho máximo de las tarjetas al 100% */
+}
+
+.card-img-top {
+  max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+}
+
+
 .card {
   max-width: 100%; /* Ajusta el ancho máximo de las tarjetas al 100% */
 }
@@ -67,12 +81,12 @@ h2{
     color: white;
     font-size: 2rem;
 }
+
 p{
+  color: aliceblue;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
-
-
 
 /* Estilos para la sección de proyectos */  
 #proyectos .row {
@@ -140,11 +154,7 @@ li {
   margin-bottom: 5px;
 }
 
-h2 {
-  color: #141e30;
-  font-size: 24px;
-  margin: 0;
-}
+
 
 .linea h2 {
   padding-bottom: 10px;
@@ -184,6 +194,3 @@ h1{
   z-index: 999; /* Asegura que esté por encima*/
   
 }
-
-
-
