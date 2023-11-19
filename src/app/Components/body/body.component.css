@@ -1,4 +1,15 @@
 .card {
+  max-width: 100%; /* Ajusta el ancho máximo de las tarjetas al 100% */
+}
+
+.card-img-top {
+  max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+}
+
+
+
+.card {
     border-radius: 25px;
     height: 100%;
   }
@@ -68,7 +79,7 @@ p{
   margin-top: 2rem; /* Agrega espacio entre las filas de arriba y abajo */
 }
 
-/* Resto de tus estilos */
+/* Resto de estilos */
 #proyectos .display-6 {
   font-size: 2.5rem;
   color: #fff;
@@ -152,6 +163,7 @@ h2 {
 h1{
 
   text-align: center;
+  color:white;
 }
 
 .lineas-negocio{
