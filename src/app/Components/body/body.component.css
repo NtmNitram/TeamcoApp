@@ -52,7 +52,10 @@
 }
 
 
-
+h2{
+    color: white;
+    font-size: 2rem;
+}
 p{
   text-align: center;
   font-size: 1.3rem;
@@ -126,18 +129,11 @@ li {
   margin-bottom: 5px;
 }
 
-
-h2{
-  color: rgb(10, 0, 0);
-  font-size: 2rem;
+h2 {
+  color: #141e30;
+  font-size: 24px;
+  margin: 0;
 }
-
-h3{
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-}
-
 
 .linea h2 {
   padding-bottom: 10px;
@@ -178,4 +174,22 @@ h1{
 }
 
 
+/* Media queries para hacer ajustes en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .card img {
+    height: 200px;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  #proyectos .display-6 {
+    font-size: 2rem;
+  }
+
+  .linea {
+    flex: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+  }
+}
 

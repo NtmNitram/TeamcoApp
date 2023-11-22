@@ -1,5 +1,3 @@
-
-
 button{
     background-color: transparent;
     color:white;
@@ -88,4 +86,33 @@ font-weight: bold;
   }
   
 
- 
+ /* Media queries para hacer ajustes en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    top: 30%;
+  }
+
+  .text-box {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .card img {
+    height: 300px; /* Ajusta la altura de las imágenes en pantallas más pequeñas */
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
